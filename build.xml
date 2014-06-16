@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="MyTests" default="mySuite" xmlns:monkeytalk="antlib:com.gorillalogic.monkeytalk.ant" >
+<project name="Testapp3" default="mySuite" xmlns:monkeytalk="antlib:com.gorillalogic.monkeytalk.ant" >
   
-  <property name="build.dir" location="Testapp3-test" />
+  <property name="build.dir" location="Testapp_1" />
   
   <target name="mySuite">
     <monkeytalk:run agent="AndroidEmulator"
